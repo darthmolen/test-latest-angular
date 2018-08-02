@@ -22,6 +22,37 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Angular Materials
+
+This project also uses angular materials. To install material, recommendation is to use yarn because it handles dependencies but both commands are below.:
+
+
+### NPM
+```
+npm install --save @angular/material @angular/cdk @angular/animations
+```
+
+### Yarn
+
+```
+yarn add @angular/material @angular/cdk @angular/animations
+```
+
+Theme support is added through the styles.css (if using angular cli)
+
+```
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+```
+the components you can inject through ng commands have changed recently.
+
+```
+$ ng generate @angular/material:material-nav --name myNav
+$ ng generate @angular/material:material-dashboard --name myDashboard
+$ ng generate @angular/material:material-table -- name myTable
+```
+
+more information can be found in their [quick start](https://material.angular.io/guide/getting-started).
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
