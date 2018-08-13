@@ -10,6 +10,7 @@ export class StartPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('Start Page.');
   }
 
 }

@@ -9,6 +9,7 @@ export class IsAuthenticatedGuard implements CanActivate {
   canActivate(
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean {
-    return of(false);
+      console.log('returning false');
+      return of(false);
   }
 }
