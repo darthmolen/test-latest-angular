@@ -185,9 +185,9 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/router@^6.1.0":
+"@angular/router@6.1.0":
   version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-6.1.0.tgz#84cd28211faa31c53f49a571217603ac32a3cce8"
+  resolved "https://www.myget.org/F/snaptech/npm/@angular/router/-/@angular/router-6.1.0.tgz#cc4c9caae5578f70e3833ad73954a6c9082e99ea"
   dependencies:
     tslib "^1.9.0"
 
